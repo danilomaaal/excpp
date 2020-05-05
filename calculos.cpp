@@ -4,10 +4,10 @@
 #include <iostream>
 
 void Calculos(int a, int b){
-  int resultado;xx
+  int resultado;
    resultado = Sumar(a, b);
-   std::cout << a << “ + ” << b << “ = ” << resultado << “\n”;
+   std::cout << a << " + " << b << " = " << resultado << "\n";
    resultado = Restar(a, b);
-   std::cout << a << “ - ” << b << “ = ” << resultado << “\n”;
+   std::cout << a << " - " << b << " = " << resultado << "\n";
    CalculosParteDos(a, b);
 }
